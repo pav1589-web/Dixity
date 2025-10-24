@@ -923,7 +923,7 @@ view_apk_files() {
     read -p "[DIX RAT] Нажми Enter..."
 }
 
-show_menu {
+show_menu 
     while true; do
         print_banner
         echo "[DIX RAT] 1. 🚀 Запустить Final Real RAT System"
